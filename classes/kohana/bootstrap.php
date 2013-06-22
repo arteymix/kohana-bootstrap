@@ -368,11 +368,11 @@ class Kohana_Bootstrap {
         Bootstrap::add_attribute($attributes, 'modal hide fade');
 
         $attributes['id'] = $id;
-        $parameters['title'] = $title;
-        $parameters['description'] = $description;
-        $parameters['action'] = $action;
-        $parameters['save'] = $save;
-        $parameters['close'] = $close;
+        $parameters['title'] = (string) $title;
+        $parameters['description'] = (string) $description;
+        $parameters['action'] = (string) $action;
+        $parameters['save'] = (string) $save;
+        $parameters['close'] = (string) $close;
         $parameters['variables'] = $variables;
         $parameters['attributes'] = $attributes;
 
