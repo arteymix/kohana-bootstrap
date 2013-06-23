@@ -201,7 +201,7 @@ class Kohana_Bootstrap {
 
         Bootstrap::add_attribute($attributes, 'carousel slide');
 
-        $attributes['id'] = $id;
+        $attributes['id'] = $id === NULL ? uniqid('carousel-') : $id;
 
         $parameters = array();
         $parameters['elements'] = $elements;

@@ -12,7 +12,7 @@
             }
             ?>
 
-            <?php echo Bootstrap::base('div', $element, $variables, $_attributes) ?>
+            <?php echo Bootstrap::base('div', (string) $element, $variables, $_attributes) ?>
 
         <?php endforeach; ?>
     </div>
