@@ -2,18 +2,8 @@
 <div<?php echo HTML::attributes($attributes) ?>>
     <!-- Carousel items -->
     <div class="carousel-inner">
-        <?php foreach ($elements as $key => $element) : ?>
-
-            <?php
-            $_attributes = array('class' => 'item');
-
-            if (in_array($key, $actives)) {
-                Bootstrap::add_attribute($_attributes, 'active');
-            }
-            ?>
-
-            <?php echo Bootstrap::base('div', (string) $element, $variables, $_attributes) ?>
-
+        <?php foreach ($elements as $element) : ?>
+            <?php echo $element ?>
         <?php endforeach; ?>
     </div>
     <!-- Carousel nav -->

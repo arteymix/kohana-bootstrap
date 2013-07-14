@@ -3,13 +3,13 @@
 defined('SYSPATH') or die('No direct access allowed.');
 
 /**
- * Tests for Bootstrap helper
+ * Tests for Bootstrap helper.
  * 
- * @package Bootstrap
- * @category Test
- * @author Guillaume Poirier-Morency <guillaumepoiriermorency@gmail.com>
+ * @package   Bootstrap
+ * @category  Tests
+ * @author    Guillaume Poirier-Morency <guillaumepoiriermorency@gmail.com>
  * @copyright (c) 2012, Hète.ca Inc.
- * @license http://kohanaframework.org/license
+ * @license   http://kohanaframework.org/license
  */
 class Bootstrap_Test extends Unittest_TestCase {
 
